@@ -1,0 +1,25 @@
+.header {
+    background-image: linear-gradient(to top, rgba(252, 227, 138, 0.9), rgba(243, 129, 129, 0.9)), url('../images/banner-img.jpg');
+    background-size: cover;
+    background-position: center;
+    padding-top: 3rem;
+    padding-bottom: 21.2rem;
+    margin-bottom: 5.2rem;
+
+    @media (min-resolution: 192dpi) {
+        & {
+            background-image: linear-gradient(to top, rgba(252, 227, 138, 0.9), rgba(243, 129, 129, 0.9)), url('../images/banner-img@2x.jpg');
+        }
+    }
+}
+
+.header__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 17rem;
+}
+
+.header__title {
+    margin-bottom: 11.4rem;
+}

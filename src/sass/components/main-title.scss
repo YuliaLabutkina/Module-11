@@ -1,0 +1,22 @@
+.main-title {
+    text-align: center;
+    font-family: $title-font;
+    font-size: 7.2rem;
+    font-weight: 400;
+    color: $main-color;
+    width: 86rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-title__item {
+    display: block;
+    text-align: center;
+    font-size: 15rem;
+    line-height: 0.93;
+    font-family: $main-font;
+    font-weight: 700;
+    color: $main-color;
+    text-transform: uppercase;
+    margin-top: 4rem;
+}

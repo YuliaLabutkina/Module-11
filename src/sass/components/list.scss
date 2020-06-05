@@ -1,0 +1,58 @@
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.list__item {
+    flex: 0 0 38rem;
+    padding-left: 8rem;
+    background-repeat: no-repeat;
+    background-position: 2.4rem 0;
+    background-size: 3.2rem;
+
+    &--alarm {
+        background-image: url(../images/icon/alarm.svg);
+    }
+    
+    &--line-graph {
+        background-image: url(../images/icon/line-graph.svg);
+    }
+    
+    &--computer {
+        background-image: url(../images/icon/computer.svg);
+    }
+    
+    &--book {
+        background-image: url(../images/icon/book.svg);
+    }
+    
+    &--home {
+        background-image: url(../images/icon/home.svg);
+    }
+    
+    &--image {
+        background-image: url(../images/icon/image.svg);
+    }
+}
+
+.list__item:not(:nth-last-child(-n+3)) {
+    margin-bottom: 10rem;
+}
+
+.list__title {
+    font-size: 1.4rem;
+    font-weight: 400;
+    font-family: $main-font;
+    text-transform: uppercase;
+    color: $secondary-color;
+    margin-bottom: 1.8rem;
+}
+
+.list__text {
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    font-weight: 400;
+    color: $secondary-light-color;
+    font-family: $secondary-font;
+}

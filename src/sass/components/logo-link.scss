@@ -1,0 +1,7 @@
+.logo-link {
+    @extend %link;
+    font-family: $main-font;
+    font-size: 3rem;
+    color: $main-color;
+    font-weight: 700;
+}

@@ -1,6 +1,31 @@
 /*
  * Все паршалы импортировать в этот файл
  */
-
 @import 'normalize.scss';
+@import 'helpers/fonts.scss';
+@import 'helpers/variables.scss';
+@import 'helpers/placeholders.scss';
+@import 'helpers/mixins.scss';
 @import 'base.scss';
+
+/* COMPONENTS */
+@import 'components/container.scss';
+@import 'components/header.scss';
+@import 'components/logo-link.scss';
+@import 'components/navigation.scss';
+@import 'components/navigation-menu.scss';
+@import 'components/action-form.scss';
+@import 'components/main-title.scss';
+@import 'components/link-header.scss';
+@import 'components/main-page.scss';
+@import 'components/servises.scss';
+@import 'components/title.scss';
+@import 'components/list.scss';
+@import 'components/team.scss';
+@import 'components/team-list.scss';
+@import 'components/overlay.scss';
+@import 'components/list-social.scss';
+@import 'components/footer.scss';
+@import 'components/form.scss';
+
+// @import 'components/'

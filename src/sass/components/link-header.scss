@@ -1,0 +1,15 @@
+.link-header {
+    @extend %link;
+    display: block;
+    border-style: solid;
+    border-width: 3px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.4rem;
+    font-family: $main-font;
+    font-weight: 700;
+    color: $main-color;
+    width: 16rem;
+    padding: 0.9rem 0;
+    margin: 0 auto;
+}

@@ -1,0 +1,40 @@
+.team-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-list__item {
+    flex: 0 0 38rem;
+}
+
+.team-list__wrapper {
+    position: relative;
+    margin-bottom: 3rem;
+    transition: transform 250ms linear, box-shadow 250ms linear;
+
+    &:hover,
+    &:focus {
+    transform: translate(-1rem, -1rem);
+    box-shadow: 1rem 1rem 0 $box-shadow-color;
+    }
+}
+
+.team-list__name {
+    font-size: 1.4rem;
+    font-family: $main-font;
+    font-weight: 400;
+    color: $secondary-color;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 1.4rem;
+}
+
+.team-list__position {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+    color: $secondary-light-color;
+    font-family: $secondary-font;
+    font-weight: 300;
+    font-style: italic;
+}
