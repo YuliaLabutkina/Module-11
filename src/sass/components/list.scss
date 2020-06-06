@@ -34,11 +34,12 @@
     &--image {
         background-image: url(../images/icon/image.svg);
     }
+
+    &:not(:nth-last-child(-n+3)) {
+        margin-bottom: 10rem;
+    }
 }
 
-.list__item:not(:nth-last-child(-n+3)) {
-    margin-bottom: 10rem;
-}
 
 .list__title {
     font-size: 1.4rem;

@@ -28,21 +28,21 @@
     &:required:focus:invalid:not(:placeholder-shown) {
         border: 2px solid $invalid-form-color;
     }
-}
 
-.form__input::placeholder {
-    font-size: 1.5rem;
-    line-height: 2.4rem;
-    font-weight: 300;
-    font-style: italic;
-    font-family: $secondary-font;
-    color: $placeholder-form-color;
+    &::placeholder {
+        font-size: 1.5rem;
+        line-height: 2.4rem;
+        font-weight: 300;
+        font-style: italic;
+        font-family: $secondary-font;
+        color: $placeholder-form-color;
+    }
 }
 
 .form__button {
     @extend %button;
     width: 15rem;
-    background-color: rgb(148, 225, 211);
+    background-color: $btn-color;
     font-size: 1.4rem;
     font-weight: 700;
     color: $main-color;
